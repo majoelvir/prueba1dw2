@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+--color-general: #333;
+--color-titulos: #333;
+--fondo-gris: #f3f3f3;
+--color-rojo: #af221d;
+--fondo-footer: #333;
+--letra-footer: #fff;
+--color-icono: ##30D5C8;
+}
+hero{
+	font-family: "Poppins", serif;
+}
+#hero{
+	font-family: "poppins", serif;
+	color: var(--letra-footer);
+	background-image: url("../img/bg-valentines.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 140px;
+}
+#hero h1{
+	font-family: "poppins", serif;;
+	font-size: 40px;
+	font-weight: 700;
+}
+#hero h3{
+	font-size: 15px;
+	font-weight: 400;
+	padding-bottom: 40px;
+}
+.btn-danger{
+border-radius: 0px;
+ padding: 10px 20px;
+ font-size: 16px;
+font-weight:500;
+color: var(--letra-footer);
+background-color: var(--color-rojo);
+	text-transform: uppercase;
+}
+.rojo{
+	text-transform: uppercase;
+	color: var(--color-rojo);
+	letter-spacing: 6px;
+	font-weight:100;
+}
+.titulos-contenido{
+	font-family: "Rubik", serif;
+	font-size: 40px;
+	font-weight: 400;
+}
+#guarantee{
+	font-family: "Rubik", serif;
+	margin-top: 15%;
+}
+#guarantee h3{
+	font-family: "Rubik", serif;
+	font-size: 18px;
+	font-weight:600;
+	padding: 10px;
+	padding-bottom: 2px;
+	
+}
+#guarantee p{
+	font-family: "Rubik", serif;
+	font-size: 15px;
+	font-weight:400;
+	color:var(--color-general)
+}
+.guarantee i{
+	font-size: 24px;
+	color: var(--color-icono);
+	position:absolute;
+}
+#balance{
+	background-color: var(--fondo-gris);
+}
+.balance-subtitles{
+	color: var(--color-rojo);
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 10px;
+}
+
+#balance h3{
+	font-size: 20px;
+	color: var(--color-general);
+	font-weight:700;
+}
+#welcome{
+	margin: 10px;
+}
+#welcome p{
+	font-size: 14px;
+	color: var(--color-general);
+	pading: 25px;
+}
+#welcome h2{
+	padding: 10px;
+	font-size: 40px;
+	font-weight: 700;
+}
